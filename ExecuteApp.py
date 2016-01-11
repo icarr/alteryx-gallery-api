@@ -7,7 +7,7 @@ UID = ''
 PWD = ''
 
 APP_ID = '51e6cc6c0df91b050cba0512'
-ANSWERS = payload = {"appPackage":{"id":"53a1cbb36ac90f0dd07dc56c"},"appName":"2010_Census_Demographic_Report.yxwz","jobName":"","version":"","userId":"506ef1917ae24a0df09869a8","questions":[{"name":"ReportMethod","answer":"[{\"key\":\"CompareOverview\",\"value\":true}]"},{"name":"Choose from 2010 Geographies","answer":"true"},{"name":"Census Geo Tree","answer":"[\"CBSAMET:14500\"]"}]}
+ANSWERS = {"appPackage":{"id":"53a1cbb36ac90f0dd07dc56c"},"appName":"2010_Census_Demographic_Report.yxwz","jobName":"","version":"","userId":"506ef1917ae24a0df09869a8","questions":[{"name":"ReportMethod","answer":"[{\"key\":\"CompareOverview\",\"value\":true}]"},{"name":"Choose from 2010 Geographies","answer":"true"},{"name":"Census Geo Tree","answer":"[\"CBSAMET:14500\"]"}]}
 
 def _main():	
 	api = AlteryxAPI(URL)
